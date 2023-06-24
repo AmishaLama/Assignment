@@ -12,10 +12,10 @@ for (i = 0; i < allUsers.length; i = i + 1) {
 //Q2 find number of duplicates
 //expected output is : 2
 //true
-const name = 'hari';
-const allUsers = ['hari', 'hari', 'shyam', 'thakur'];
+const name1 = 'hari';
+const allUsers1 = ['hari', 'hari', 'shyam', 'thakur'];
 let sum = 0;
-allUsers.map((item, id) => {
+allUsers1.map((item, id) => {
   if (item == 'hari') {
     sum = sum + 1;
     return item;
@@ -23,4 +23,4 @@ allUsers.map((item, id) => {
     return 'hello';
   }
 });
-sum;
+console.log(sum);
