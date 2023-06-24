@@ -4,7 +4,7 @@
 const arr = [2, 5, 6, 7];
 let sum = 0;
 for (let i of arr) {
-  sum = sum + i;
+  sum = sum + i; //sums the values
 }
 console.log(sum);
 
@@ -15,7 +15,7 @@ const users = ['hari', 'shyam', 'hari'];
 let temparr = [];
 users.map((item) => {
   if (!temparr.includes(item)) {
-    temparr.push(item);
+    temparr.push(item); //pushes items to temparr if the item is not in temparr
   }
 });
 console.log(temparr);
