@@ -22,6 +22,7 @@ console.log(temparr);
 
 //Q5
 //calculate the sum of all the odd numbers inside this nested array
+//Output= 24
 const newArr = [
   [4, 5],
   [5, 7],
