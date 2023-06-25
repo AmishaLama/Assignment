@@ -37,3 +37,16 @@ for (i = 0; i < newArr.length; i++) {
   }
 }
 console.log(sum1);
+
+//Q6
+// return only array of ids: expected output  [3,5,6]
+const myDetails = [
+  { id: 3, name: 'hari' },
+  { id: 5, name: 'shyam' },
+  { id: 6, name: 'gopal' },
+];
+let temp = [];
+myDetails.map((item) => {
+  temp.push(item.id);
+});
+console.log(temp);
