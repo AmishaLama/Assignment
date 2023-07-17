@@ -9,7 +9,7 @@ for (i = 0; i < allUsers.length; i = i + 1) {
   }
 }
 
-//Q2 find number of duplicates
+//Q2 find the number of duplicates
 //expected output is : 2
 //true
 const name1 = 'hari';
